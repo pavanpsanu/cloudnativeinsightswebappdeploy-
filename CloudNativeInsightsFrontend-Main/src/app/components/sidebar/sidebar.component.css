@@ -1,0 +1,31 @@
+/* .sidebar li .submenu{ 
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+	padding-left: 1rem; 
+	padding-right: 1rem;
+} */
+
+
+/* .cluster-list{
+    text-decoration: none;
+    display: block;
+    color: white;
+    width: 100px;
+    padding: 5px;
+
+}
+
+.cluster-list{
+display: none;
+position: absolute;
+}
+
+.container:hover > .cluster-list  {
+    display: block;
+}
+
+.container{
+    display: inline;
+    cursor: pointer;
+} */

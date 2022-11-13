@@ -1,0 +1,217 @@
+
+<div class=" content">
+    
+      <div class="header bg-gradient-danger pb-8 pt-5 pt-md-8">
+        <div class="container-fluid">
+          <div class="header-body">
+            <!-- Card stats -->
+            <div class="row">
+                <div class="col-xl-3 col-lg-6">
+                  <div class="card card-stats mb-4 mb-xl-0">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col">
+                          <h5 class="card-title text-uppercase  mb-0"></h5>
+                          <span class="h2 font-weight-bold mb-0" style="color:white;"></span>
+                        </div>
+                        <div class="col-auto">
+                          <div class="icon text-white">
+                            <!-- <i class="fas fa-chart-bar"></i> -->
+                            <img src="./assets/img/Box-icon1.png" style="height:40px; padding-left: 5px;  background-color: #04ecc4;">
+                          </div>
+                        </div>
+                      </div>
+                      <p class="mt-3 mb-0 text-muted text-sm">
+                        <span class="text-success mr-2"></span>
+                        <span class="text-nowrap font-weight-bold">Total Live Application</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                  <div class="card card-stats mb-4 mb-xl-0">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col">
+                          <h5 class="card-title text-uppercase  mb-0"></h5>
+                          <span class="h2 font-weight-bold mb-0" style="color:white;"></span>
+                        </div>
+                        <div class="col-auto">
+                          <div class="icon  text-white rounded-circle shadow">
+                            <!-- <i class="fas fa-chart-pie"></i> -->
+                            <img src="./assets/img/Box-icon2.png" style="height:40px; padding-left: 5px;  background-color: #04ecc4;">
+    
+                          </div>
+                        </div>
+                      </div>
+                      <p class="mt-3 mb-0 text-muted text-sm">
+                        <span class="text-success mr-2"></span>
+                        <span class="text-nowrap font-weight-bold">Live Native Projects</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                  <div class="card card-stats mb-4 mb-xl-0">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col">
+                          <h5 class="card-title text-uppercase  mb-0"></h5>
+                          <span class="h2 font-weight-bold mb-0" style="color:white;"></span>
+                        </div>
+                        <div class="col-auto">
+                          <div class="icon  text-white rounded-circle shadow">
+                            <!-- <i class="fas fa-users"></i> -->
+                            <img src="./assets/img/Box-icon3.png" style="height:40px; padding-left: 5px;  background-color: #04ecc4;">
+                          </div>
+                        </div>
+                      </div>
+                      <p class="mt-3 mb-0 text-muted text-sm">
+                        <span class="text-success mr-2"></span>
+                        <span class="text-nowrap font-weight-bold">Development Projects</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                  <div class="card card-stats mb-4 mb-xl-0">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col">
+                          <h5 class="card-title text-uppercase  mb-0"></h5>
+                          <span class="h2 font-weight-bold mb-0" style="color:white;"></span>
+                        </div>
+                        <div class="col-auto">
+                          <div class="icon text-white rounded-circle shadow">
+                            <!-- <i class="fas fa-percent"></i> -->
+                            <img src="./assets/img/Box-icon4.png" style="height:40px; padding-left: 5px;  background-color: #04ecc4;">
+                          </div>
+                        </div>
+                      </div>
+                      <p class="mt-3 mb-0 text-muted text-sm">
+                        <span class="text-success mr-2"></span>
+                        <span class="text-nowrap font-weight-bold">Native Development</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    
+<div class="row" style="margin-top: 40px; margin-left: 25px;width: 1195px;">
+  
+    <div class="col-md-19 testbox">
+       <div class="toppading">
+        <h4 style="margin-top: 30px;"><b>Service Category vs Count</b></h4>
+            <canvas id="servicecategory" baseChart
+                [data]="barChartData3"
+                [options]="barChartOptions3"
+                [plugins]="barChartPlugins3"
+                [legend]="barChartLegend3"
+                [type]="'bar'">
+           </canvas> 
+      </div>
+    </div>
+  
+  </div>
+
+
+<div class="row"> 
+      <div class="col-md-5 testbox" style="margin-top: 40px; margin-left: 40px">
+        <div class="toppading">
+          <h4><b>Industry vs Azure Service Count</b></h4>
+            <canvas id="servicecategory1" baseChart
+                  [data]="barChartData2"
+                  [options]="barChartOptions2"
+                  [plugins]="barChartPlugins2"
+                  [legend]="barChartLegend2"
+                  [type]="'bar'">
+          </canvas>
+          </div>
+      </div>
+<div class="col-md-1">
+
+</div>
+      
+     <div class="col-md-5 testbox" style="margin-right: 30px; margin-top: 40px;">
+      <div class="toppading">
+        <h4><b>Top Customer vs Azure Service Category Count</b></h4>
+          <canvas id="servicecategory2" baseChart
+                [data]="barChartData4"
+                [options]="barChartOptions4"
+                [plugins]="barChartPlugins4"
+                [legend]="barChartLegend4"
+                [type]="'bar'">
+        </canvas>
+      </div>
+    </div>
+ </div>
+
+
+
+<!-- <div style="background-color:rgba(112, 124, 130, 0.666); margin-bottom: auto;"> 
+  <div class="left"> 
+   <h3>DATABASE SERVICE</h3> 
+  </div> 
+  <div class="right">
+    <p>Top Used Services</p>
+    <p>Show All</p>
+  </div> 
+ </div>  -->
+
+ <div class="row"> 
+     <div class="col-md-5 testbox" style="margin-top: 40px; margin-left: 40px">
+        <div class="toppading">
+          <h4><b>Database PaaS Service</b></h4>
+            <canvas id="databasepaas"  baseChart
+                  [data]="barChartData5"
+                  [options]="barChartOptions5"
+                  [plugins]="barChartPlugins5"
+                  [legend]="barChartLegend5"
+                  [type]="'bar'">
+          </canvas>
+        </div>
+      </div>
+
+      <div class="col-md-1">
+
+      </div>
+      
+  
+      <div class="col-md-5 testbox" style="margin-right: 30px; margin-top: 40px;">
+        <div class="toppading">
+          <h4><b>Industry vs Azure Datebase</b></h4>
+            <canvas id="industryvsazuredb" baseChart
+                [data]="barChartData6"
+                [options]="barChartOptions6"
+                [plugins]="barChartPlugins6"
+                [legend]="barChartLegend6"
+                [type]="'bar'"
+                style="margin-right:20px ;">
+            </canvas>
+        </div> 
+      </div>>
+  
+</div>
+<div class="row"> 
+   <div class="col-md-5 testbox" style="margin-top: 40px; margin-left: 40px">
+       <div class="toppadings">
+          <h4><b>Top Account vs Azure Database</b></h4>
+            <canvas id="topaccountvsazuredb" baseChart
+              [data]="barChartData7"
+              [options]="barChartOptions7"
+              [plugins]="barChartPlugins7"
+              [legend]="barChartLegend7"
+              [type]="'bar'">
+            </canvas>
+        </div>
+      </div>
+</div>
+  
+  
+   
+  
+    
+  

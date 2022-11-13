@@ -1,0 +1,230 @@
+<div class="content">
+    <div>
+      <div class="header bg-gradient-danger pb-8 pt-5 pt-md-8">
+        <div class="container-fluid">
+          <div class="header-body">
+  
+           
+            <!-- Card stats -->
+            <div class="row">
+              <div class="col-xl-3 col-lg-6">
+                <div class="card card-stats mb-4 mb-xl-0">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col">
+                        <h5 class="card-title text-uppercase  mb-0"></h5>
+                        <span class="h1 font-weight-bold mb-0" style="color:white;"></span>
+                      </div>
+                      <div class="col-auto">
+                        <div class="icon text-white">
+                          <!-- <i class="fas fa-chart-bar"></i> -->
+                          <img src="../../../../assets/img/business_icon1.png" style="height:40px; padding-left: 5px;  background-color: #04ecc4;">
+                        </div>
+                      </div>
+                    </div>
+                    <p class="mt-3 mb-0 text-muted text-sm">
+                      <span class="text-success mr-2"></span>
+                      <span class="h3 font-weight-bold mb-0" style="color:gray;">MUSD 100</span><br>
+                      <span class="text-nowrap font-weight-bold">Total Services Spend</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-6">
+                <div class="card card-stats mb-4 mb-xl-0">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col">
+                        <h5 class="card-title text-uppercase  mb-0"></h5>
+                        <span class="h2 font-weight-bold mb-0" style="color:white;"></span>
+                      </div>
+                      <div class="col-auto">
+                        <div class="icon  text-white rounded-circle shadow">
+                          <!-- <i class="fas fa-chart-pie"></i> -->
+                          <img src="../../../../assets/img/business_icon2.png" style="height:40px; padding-left: 5px;  background-color: #04ecc4;">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <p class="mt-3 mb-0 text-muted text-sm">
+                      <span class="text-success mr-2"></span>
+                      <span class="h3 font-weight-bold mb-0" style="color:gray;;">MUSD 60</span><br>
+                      <span class="text-nowrap font-weight-bold">Infrastructure</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-6">
+                <div class="card card-stats mb-4 mb-xl-0">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col">
+                        <h5 class="card-title text-uppercase  mb-0"></h5>
+                        <span class="h2 font-weight-bold mb-0" style="color:white;"></span>
+                      </div>
+                      <div class="col-auto">
+                        <div class="icon  text-white rounded-circle shadow">
+                          <!-- <i class="fas fa-users"></i> -->
+                          <img src="../../../../assets/img/business_icon3.png" style="height:40px; padding-left: 5px;  background-color: #04ecc4;">
+                        </div>
+                      </div>
+                    </div>
+                    <p class="mt-3 mb-0 text-muted text-sm">
+                      <span class="text-success mr-2"></span>
+                      <span class="h3 font-weight-bold mb-0" style="color:gray;">MUSD 10</span><br>
+                      <span class="text-nowrap font-weight-bold">Azure PaaS Services</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-6">
+                <div class="card card-stats mb-4 mb-xl-0">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col">
+                        <h5 class="card-title text-uppercase  mb-0"></h5>
+                        <span class="h2 font-weight-bold mb-0" style="color:white;"></span>
+                      </div>
+                      <div class="col-auto">
+                        <div class="icon text-white rounded-circle shadow">
+                          <!-- <i class="fas fa-percent"></i> -->
+                          <img src="../../../../assets/img/business_icon4.png" style="height:40px; padding-left: 5px;  background-color: #04ecc4;">
+                        </div>
+                      </div>
+                    </div>
+                    <p class="mt-3 mb-0 text-muted text-sm">
+                      <span class="text-success mr-2"></span>
+                      <span class="h3 font-weight-bold mb-0" style="color:gray;">MUSD 30</span><br>
+                      <span class="text-nowrap font-weight-bold">Azure IaaS Services</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+      <div class="row">
+        <div class="col-md-5 leftmargin testbox">
+                <div class="top" style="margin: 20px ;">
+                  <h4><b>Cost Objective Goals</b></h4>
+                  <canvas baseChart
+                  [labels]="doughnutChartLabels"
+                  [datasets]="doughnutChartDatasets"
+                  [options]="doughnutChartOptions"
+                  [legend]="true"
+                  [type]="'doughnut'"
+                  style="margin-left: 60px;">
+                  </canvas>
+              </div>
+            </div>
+
+
+          <div class="col-md-1"> </div>
+              <div class="col-md-5 leftmargin testbox">
+                <div class="top" style="margin: 20px ;">
+                  <h4><b>Azure Service Cost</b></h4>
+                  <canvas baseChart
+                  [labels]="doughnutChartLabels1"
+                  [datasets]="doughnutChartDatasets1"
+                  [options]="doughnutChartOptions1"
+                  [legend]="true"
+                  [type]="'doughnut'"
+                  style="margin-left: 60px;">
+                  </canvas>
+            </div>
+          </div>  
+        </div>
+  <br>
+   
+<div class="row" style="margin-top: 40px; margin-left: 25px;width: 1195px;">
+    <div class="col-md-19 testbox">
+       <div class="toppading">
+        <h4 style="margin-top: 30px;"><b>Services - %Revenue Share</b></h4>
+            <canvas id="servicecategory" baseChart
+                [data]="barChartData3"
+                [options]="barChartOptions3"
+                [plugins]="barChartPlugins3"
+                [legend]="barChartLegend3"
+                [type]="'bar'">
+           </canvas> 
+      </div>
+    </div>
+  </div>
+
+<br>
+   <br>
+
+<div class="row">
+    <div class="col-md-5 testbox" style="margin-left: 40px;" >
+        <div class="top" style="margin: 30px ;">
+          <h4><b>Cloud Native - Business Outcomes</b></h4>
+          <h4>Operational Cost</h4>
+          <p><ngb-progressbar class="progress-bar" type="success" textType="dark"  height="15px" [value]="60">60%</ngb-progressbar></p>
+          <br>
+          <h4>Customer Experience</h4>
+          <p><ngb-progressbar class="progress-bar" type="success" textType="dark" [value]="70" height="15px"><i>70%</i></ngb-progressbar></p>
+          <br>
+          <h4>Digital Journey</h4>
+          <p><ngb-progressbar class="progress-bar" type="success" textType="dark" [value]="40" height="15px">40%</ngb-progressbar></p>
+        </div>
+      </div>
+  
+      <div class="col-md-1"> </div>
+  
+  <div class="col-md-5 testbox" style="margin-right: 30px;">
+    <div class="top" style="margin: 30px;">
+        <h4><b>Cloud Native - IT Outcomes</b></h4>
+        <h4>Scalability</h4>
+        <p><ngb-progressbar class="progress-bar" type="info" textType="dark"   height="15px" [value]="25">25%</ngb-progressbar></p>
+        <br>
+        <h4>Reliability</h4>
+        <p><ngb-progressbar class="progress-bar" type="info" textType="dark"  [value]="40" height="15px"><i>40%</i></ngb-progressbar></p>
+        <br>
+        <h4>Technology Replacement</h4>
+        <p><ngb-progressbar class="progress-bar" type="info" textType="dark"   [value]="35" height="15px">35%</ngb-progressbar></p>
+      </div>
+  </div>
+    
+<br>
+  <br>
+
+  <div class="row"> 
+    <div class="col-md-5 testbox" style="margin-top: 40px; margin-left: 40px">
+      <div class="toppading">
+        <h4><b>Top Customer Revenue Breakup</b></h4>
+          <canvas id="servicecategory1" baseChart
+                [data]="barChartData2"
+                [options]="barChartOptions2"
+                [plugins]="barChartPlugins2"
+                [legend]="barChartLegend2"
+                [type]="'bar'">
+        </canvas>
+        </div>
+    </div>
+
+  <div class="col-md-1"> </div>
+         <div class="col-md-5 leftmargin testbox" style="margin-top: 40px; margin-left: 40px">
+          <div class="toppading">
+                  <h4><b>Azure Revenue Split across Customers</b></h4>
+                  <canvas baseChart
+                  [labels]="doughnutChartLabels2"
+                  [datasets]="doughnutChartDatasets2"
+                  [options]="doughnutChartOptions2"
+                  [legend]="true"
+                  [type]="'doughnut'"
+                  style="margin-left: 60px;">
+                  </canvas>
+            </div>
+        </div>  
+  </div>
+
+
+
+
+</div>
+  

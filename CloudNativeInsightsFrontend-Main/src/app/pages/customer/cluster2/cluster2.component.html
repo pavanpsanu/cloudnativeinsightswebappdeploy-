@@ -1,0 +1,275 @@
+<!-- <app-clusternavbar>Cluster 1 works</app-clusternavbar> -->
+<div class="content">
+    <div>
+      <div class="header bg-gradient-danger pb-8 pt-5 pt-md-8">
+        <div class="container-fluid">
+          <div class="header-body">
+  
+           
+            <!-- Card stats -->
+            <div class="row">
+              <div class="col-xl-3 col-lg-6">
+                <div class="card card-stats mb-4 mb-xl-0">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col">
+                        <h5 class="card-title text-uppercase  mb-0"></h5>
+                        <span class="h1 font-weight-bold mb-0" style="color:white;"></span>
+                      </div>
+                      <div class="col-auto">
+                        <div class="icon text-white">
+                          <!-- <i class="fas fa-chart-bar"></i> -->
+                          <img src="./assets/img/Box-icon1.png" style="height:40px; padding-left: 5px;  background-color: #04ecc4;">
+                        </div>
+                      </div>
+                    </div>
+                    <p class="mt-3 mb-0 text-muted text-sm">
+                      <span class="text-success mr-2"></span>
+                      <span class="h2 font-weight-bold mb-0" style="color:rgb(10, 10, 10);;"></span><br>
+                      <span class="text-nowrap font-weight-bold">Customers</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-6">
+                <div class="card card-stats mb-4 mb-xl-0">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col">
+                        <h5 class="card-title text-uppercase  mb-0"></h5>
+                        <span class="h2 font-weight-bold mb-0" style="color:white;"></span>
+                      </div>
+                      <div class="col-auto">
+                        <div class="icon  text-white rounded-circle shadow">
+                          <!-- <i class="fas fa-chart-pie"></i> -->
+                          <img src="./assets/img/Box-icon2.png" style="height:40px; padding-left: 5px;  background-color: #04ecc4;">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <p class="mt-3 mb-0 text-muted text-sm">
+                      <span class="text-success mr-2"></span>
+                      <span class="h2 font-weight-bold mb-0" style="color:rgb(10, 10, 10);;"></span><br>
+                      <span class="text-nowrap font-weight-bold">Applications</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-6">
+                <div class="card card-stats mb-4 mb-xl-0">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col">
+                        <h5 class="card-title text-uppercase  mb-0"></h5>
+                        <span class="h2 font-weight-bold mb-0" style="color:white;"></span>
+                      </div>
+                      <div class="col-auto">
+                        <div class="icon  text-white rounded-circle shadow">
+                          <!-- <i class="fas fa-users"></i> -->
+                          <img src="./assets/img/Box-icon3.png" style="height:40px; padding-left: 5px;  background-color: #04ecc4;">
+                        </div>
+                      </div>
+                    </div>
+                    <p class="mt-3 mb-0 text-muted text-sm">
+                      <span class="text-success mr-2"></span>
+                      <span class="h2 font-weight-bold mb-0" style="color:rgb(10, 10, 10);;"></span><br>
+                      <span class="text-nowrap font-weight-bold">Native Applications</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-6">
+                <div class="card card-stats mb-4 mb-xl-0">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col">
+                        <h5 class="card-title text-uppercase  mb-0"></h5>
+                        <span class="h2 font-weight-bold mb-0" style="color:white;"></span>
+                      </div>
+                      <div class="col-auto">
+                        <div class="icon text-white rounded-circle shadow">
+                          <!-- <i class="fas fa-percent"></i> -->
+                          <img src="./assets/img/Box-icon4.png" style="height:40px; padding-left: 5px;  background-color: #04ecc4;">
+                        </div>
+                      </div>
+                    </div>
+                    <p class="mt-3 mb-0 text-muted text-sm">
+                      <span class="text-success mr-2"></span>
+                      <span class="h2 font-weight-bold mb-0" style="color:rgb(10, 10, 10);;"></span><br>
+                      <span class="text-nowrap font-weight-bold">Not Ready</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+   <div>
+   <!-- <mat-tab-group>
+    <mat-tab style="color: red;" label="Cluster 1"> -->
+
+<!--     
+      <div class="row" > 
+        <div class="col-md-5 testbox" style="margin-top: 40px; margin-left: 40px;">
+          <div class="toppading">
+              <h4><b>Top 5 Customers & Azure Adoption</b></h4>
+                <canvas  id="customervsazureservice" baseChart
+                      [data]="barChartData3"
+                      [options]="barChartOptions3"
+                      [plugins]="barChartPlugins3"
+                      [legend]="barChartLegend3"
+                      [type]="'bar'">
+              </canvas>
+            
+          </div>
+        </div>
+        <div class="col-md-1"> </div>
+        
+        <div class="col-md-5 testbox" style="margin-right:30px;margin-top: 40px;" >
+              <div class="toppading">
+               <h4><b>Business Outcomes vs Customers</b></h4>
+               <canvas id="topcustomervsazureservicecat" baseChart
+                     [data]="barChartData2"
+                     [options]="barChartOptions2"
+                     [plugins]="barChartPlugins2"
+                     [legend]="barChartLegend2"
+                     [type]="'bar'">
+               </canvas>
+           </div>
+         </div>
+       
+        </div>
+  
+        <div class="row"> 
+          <div class="col-md-5 testbox" style="margin-top: 40px; margin-left: 40px">
+             <div class="toppading">
+              <h4><b>IT Outcomes vs Number of Customers</b></h4>
+              <canvas id="cloudnativecategory1" baseChart
+                    [data]="barChartData4"
+                    [options]="barChartOptions4"
+                    [plugins]="barChartPlugins4"
+                    [legend]="barChartLegend4"
+                    [type]="'bar'">
+            </canvas>
+             </div>
+           </div>
+     
+           <div class="col-md-1">
+     
+           </div>
+           
+       
+           <div class="col-md-5 testbox" style="margin-right: 30px; margin-top: 40px;">
+             <div class="toppading">
+              <h4><b>Industry & Cloud Native Index</b></h4>
+              <canvas id="clusterdetails" baseChart
+                    [data]="barChartData5"
+                    [options]="barChartOptions5"
+                    [plugins]="barChartPlugins5"
+                    [legend]="barChartLegend5"
+                    [type]="'bar'">
+            </canvas>
+             </div> 
+           </div>
+       
+     </div>
+      
+      
+  <div class="row"> 
+      <div class="col-md-5 testbox" style="margin-top: 40px; margin-left: 40px">
+         <div class="toppading">
+          <h4><b>Top Customers & Cloud Native Index</b></h4>
+                  <canvas id="databasepaasservice" baseChart
+                      [data]="barChartData6"
+                      [options]="barChartOptions6"
+                      [plugins]="barChartPlugins6"
+                      [legend]="barChartLegend6"
+                      [type]="'bar'">
+                  </canvas>
+         </div>
+      </div>
+  
+      <div class="col-md-1"></div>
+   
+       <div class="col-md-5 testbox" style="margin-right: 30px; margin-top: 40px;">
+         <div class="toppading">
+          <h4><b>Application Transition Across Maturity Index</b></h4>
+                  <canvas id="industryvsazuredb" baseChart
+                    [data]="barChartData7"
+                    [options]="barChartOptions7"
+                    [plugins]="barChartPlugins7"
+                    [legend]="barChartLegend7"
+                    [type]="'bar'">
+                  </canvas>
+         </div> 
+       </div>
+   
+  </div>
+  
+  
+  <div class="row"> 
+    <div class="col-md-5 testbox" style="margin-top: 40px; margin-left: 40px">
+       <div class="toppading">
+        <h4><b>Impediments to Maturity Index Movement</b></h4>
+        <canvas id="databasepaasservice" baseChart
+            [data]="barChartData9"
+            [options]="barChartOptions9"
+            [plugins]="barChartPlugins9"
+            [legend]="barChartLegend9"
+            [type]="'bar'">
+        </canvas>
+       </div>
+    </div>
+  
+    <div class="col-md-1"></div>
+  
+     <div class="col-md-5 testbox" style="margin-right: 30px; margin-top: 40px;">
+       <div class="toppading">
+        <h4><b>Cluster & Cloud Native Index</b></h4>
+                  <canvas id="industryvsazuredb" baseChart
+                    [data]="barChartData10"
+                    [options]="barChartOptions10"
+                    [plugins]="barChartPlugins10"
+                    [legend]="barChartLegend10"
+                    [type]="'bar'">
+                  </canvas>
+       </div> 
+     </div>
+  
+  </div>
+  
+  
+      
+       
+  
+  
+     
+        
+  
+  
+        
+        <div class="row"> 
+          <div class="col-md-5 testbox" style="margin-top: 40px; margin-left: 40px">
+              <div class="toppadings">
+                <h4><b>MBU Clusters & Maturity Index Mix</b></h4>
+                <canvas id="topaccountsvsazure" baseChart
+                [data]="barChartData11"
+                [options]="barChartOptions11"
+                [plugins]="barChartPlugins11"
+                [legend]="barChartLegend11"
+                [type]="'bar'">
+               </canvas>
+  
+               </div>
+             </div>
+       </div>
+       
+      
+  
+      
+    
+  </div> -->
+  </div>
